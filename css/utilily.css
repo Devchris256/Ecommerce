@@ -1,0 +1,22 @@
+.wrapper {
+  max-inline-size: 75rem;
+  margin: auto;
+  padding-inline: 1rem;
+  box-sizing: border-box;
+}
+
+.wrapper-small {
+  max-inline-size: 37.5rem;
+  margin: auto;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.bbt-max-inline {
+  max-inline-size: 18.75rem
+}
+
+
+

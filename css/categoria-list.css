@@ -1,0 +1,18 @@
+@import './categoria.css';
+
+.categoriaList {
+  padding-block: 3.125rem;
+}
+
+.categoriaList h2{
+  margin: 0;
+  margin-block-end: 1.25rem;
+}
+
+@media screen and (min-width:768px) {
+  .categoriaList-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}

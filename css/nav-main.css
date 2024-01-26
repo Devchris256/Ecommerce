@@ -1,0 +1,15 @@
+.navMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 1.25rem;
+}
+
+@media screen and (min-width:768px) {
+   .navMain{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+

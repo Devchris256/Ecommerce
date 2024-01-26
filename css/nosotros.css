@@ -1,0 +1,32 @@
+.nosotros {
+  padding-block-start: 3rem;
+}
+
+.nosotros h2 {
+  margin: 0;
+  margin-block-end: 1.25rem;
+}
+
+@media screen and (min-width:768px) {
+  .nosotros-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+.nosotros-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  padding-block: 1.5rem;
+}
+
+
+.nosotros img {
+  max-inline-size: 100%;
+  object-fit: cover;
+}

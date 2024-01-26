@@ -1,0 +1,12 @@
+.enlace {
+  text-decoration: none;
+  color: var(--black);
+  font-family: var(--mainFontfamily);
+  font-size: 1rem;
+  transition: color .2s;
+}
+
+.enlace:hover {
+  font-weight: 900;
+  color: var(--blue);
+}

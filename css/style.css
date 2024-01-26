@@ -1,0 +1,41 @@
+@import './global.css';
+@import './utilily.css';
+@import './header.css';
+@import './nav-main.css';
+@import './enlace.css';
+@import './button.css';
+@import './hero.css';
+@import './categoria-list.css';
+@import './sobre-nosotros.css';
+@import './producto-list.css';
+@import './nosotros.css';
+@import './nuestro-blog.css';
+@import './blog.css';
+@import './galeria.css';
+@import './contacto.css';
+@import './footer.css';
+
+:root {
+  font-size: 16px;
+  --mainFontfamily: 'Raleway', sans-serif;
+  --secondaryFontfamily: 'Playfair Display', serif;
+  --green: #8cbc00;
+  --greenDark: #769c02;
+  --blue: #037bc0;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #e1e1e1;
+  --titleOne: 900 2.5rem/normal var(--secondaryFontfamily);
+  --titleTwo: 900 2rem/normal var(--secondaryFontfamily);
+  --titleThree: 900 1.5rem/normal var(--secondaryFontfamily);
+}
+
+@media screen and (min-width:768px) {
+  :root {
+    --titleOne: 3.125rem/normal var(--secondaryFontfamily);
+    --titleTwo: 2.5rem/normal var(--secondaryFontfamily);
+    --titleThree: 1.875rem/normal var(--secondaryFontfamily);
+  }
+}
+
+

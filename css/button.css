@@ -1,0 +1,16 @@
+.button {
+  display: block;
+  background: var(--green);
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 900;
+  text-decoration: none;
+  padding: .625rem;
+  text-align: center;
+  border: none;
+  transition: background .3s ease-out;
+}
+
+.button:hover {
+  background: var(--greenDark);
+}

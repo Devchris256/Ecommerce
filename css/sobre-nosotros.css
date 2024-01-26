@@ -1,0 +1,52 @@
+.sobreNosotros {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+
+.sobreNosotros-img {
+  background: url(../image/nosotros.jpg) center/cover;
+}
+
+.sobreNosotros img {
+  inline-size: 100%;
+  object-fit: fill;
+}
+
+.sobreNosotros-content {
+  background: var(--blue);
+  padding-block: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sobreNosotros-details {
+  color: var(--white);
+  max-inline-size: 34.75rem;
+  padding-inline: 3.125rem;
+  padding-block: 1.5rem;
+  box-sizing: border-box;
+}
+
+.sobreNosotros h2 {
+  margin: 0;
+  margin-block-end: 1.25rem;
+  color: var(--white);
+}
+
+.sobreNosotros p {
+  margin-block: .625rem;
+}
+
+
+@media screen and (min-width:768px) {
+  .sobreNosotros {
+   display: grid;
+   grid-template-rows: unset;
+   grid-template-columns: repeat(2, 1fr);
+  }
+  .sobreNosotros-content {
+    padding-inline-start: 3.125rem;
+  }
+}

@@ -1,0 +1,37 @@
+.galeria {
+  padding-block-start: 3rem;
+  padding-block-end: 1.5rem;
+}
+
+.galeria h2 {
+  margin: 0;
+  margin-block-end: .5rem;
+}
+
+.galeria-layout {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.galeria-layout img {
+  inline-size: 100%rem;
+  max-inline-size: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+@media screen and (min-width:768px) {
+  .galeria-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .galeria-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

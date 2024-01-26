@@ -1,0 +1,29 @@
+.categoria {
+  display: flex;
+  flex-direction: column;
+  margin-block-end: 1rem;
+}
+
+.categoria .enlace {
+  display: block;
+  text-align: center;
+  padding-block: 1.5rem;
+  border-radius: 0 0 1.25rem 1.25rem;
+}
+
+.categoria .enlace:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.categoria img {
+  max-inline-size: 100%;
+  inline-size: 100%;
+  vertical-align: bottom;
+}
+
+@media screen and (min-width:"768px") {
+  .categoria img {
+    inline-size: 100%;
+  }
+}

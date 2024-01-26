@@ -1,0 +1,22 @@
+.nuestroBlog h2 {
+  margin: 0;
+  margin-block-end: 1.25rem;
+}
+
+
+.nuestroBlog-other a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.nuestroBlog li {
+  line-height: 2;
+}
+
+@media screen and (min-width:768px) {
+  .nuestroBlog-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+  }
+}

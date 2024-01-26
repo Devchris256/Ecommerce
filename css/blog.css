@@ -1,0 +1,43 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  padding-block-end: 2.5rem;
+  border-block-end: 1px solid var(--grey);
+  margin-block-end: 1.25rem;
+}
+
+.blog h2 {
+  margin: 0;
+  margin-block-end: 1.25rem;
+  margin-block-start: 1.25rem;
+}
+
+.blog img {
+  inline-size: 100%;
+}
+
+.blog-meta p {
+  font-weight: bold;
+}
+
+.blog-meta span {
+  color: var(--blue);
+}
+
+.blog-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media screen and (min-width:768px) {
+  .blog-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding-inline: 1rem;
+  }
+}

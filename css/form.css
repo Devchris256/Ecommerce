@@ -1,0 +1,48 @@
+.form {
+  max-inline-size: 37.5rem;
+  margin: auto;
+  padding-inline: 1rem;
+}
+
+.form legend {
+  color: var(--white);
+  font-weight: 900;
+  text-align: center;
+  padding: 1rem;
+  background: rgb(0, 84, 133);
+  margin-block-end: 1.5rem;
+  inline-size: 100%;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.form fieldset {
+  border: 1px solid var(--black);
+  margin: 0;
+  margin-block-end: 1.5rem;
+}
+
+.form .campo {
+  display: flex;
+  gap: 1rem;
+  margin-block-end: 1rem;
+}
+
+.campo input:not([type="radio"]),
+.campo textarea,
+.campo select {
+  flex: 1;
+  inline-size: 100%;
+  border: 1px solid #e1e1e1;
+  padding: 1rem;
+}
+
+
+.form .button {
+  text-align: center;
+}
+
+.form label {
+  align-self: flex-start;
+  flex-basis: 6.25rem;
+}

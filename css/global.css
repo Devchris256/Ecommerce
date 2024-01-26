@@ -1,0 +1,25 @@
+.body {
+  margin: 0;
+  font-family: var(--mainFontfamily);
+  color: var(--black);
+  user-select: none;
+  position: relative;
+}
+
+.titleOne {
+  font: var(--titleOne);
+}
+
+.titleTwo {
+  font: var(--titleTwo);
+}
+
+.titleThree {
+  font: var(--titleThree);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--black);
+}
